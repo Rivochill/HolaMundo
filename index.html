@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog de Max</title>
+  </head>
+  <body>
     <header>
-        <h1 id="titulo">Blog de Max</h1>
-        <div>
-            <p>Parrafo dentro de un DIV </p>
-        </div>
+      <h1 id="titulo">Blog de Max</h1>
+    </header>
+    <main>
+      <section class="container">
+        <article class="post">
+          <h2>Titulo del post</h2>
+          <p>Descripcion del post</p>
+          <img src="media/coffee.png" alt="CoffeImage" width="400" />
+          <p>Texto del articulo que hay aca, y es de prueba.</p>
+        </article>
+      </section>
+
+      <section class="container">
+        <article class="post">
+          <h2>Titulo del post 2</h2>
+          <p>Descripcion del post 2</p>
+          <img src="media/monster.png" alt="MonsterImage" width="400" />
+          <p>Texto del articulo que hay aca, y es de prueba.</p>
+        </article>
+      </section>
+
+      <section class="container">
+        <article class="post">
+          <h2>Titulo del post 3</h2>
+          <p>Descripcion del post 3</p>
+          <img src="media/guitarra.png" alt="GuitarraImage" width="400" />
+          <p>Texto del articulo que hay aca, y es de prueba.</p>
+        </article>
+      </section>
+    </main>
+    <footer>
         <section>
-            <article class="post">
-                <h2>Titulo del post</h2>
-                <p>Descripcion del post</p>
-                <img src="media/coffee.png" alt="CoffeImage">
-                <p>Texto del articulo que hay aca, y es de prueba.</p>
-            </article>
-        </section>
-        
-        <section>
-            <article class="post">
-                <h2>Titulo del post 2</h2>
-                <p>Descripcion del post 2</p>
-                <img src="media/monster.png" alt="MonsterImage">
-                <p>Texto del articulo que hay aca, y es de prueba.</p>
-            </article>
+            <a href="#titulo">Ir al inicio</a>
+            <a href="mailto:romero.max44@gmail.com" target="_blank">¡Contactame aquí!</a>
         </section>
 
-        <section>
-            <article class="post">
-                <h2>Titulo del post 3</h2>
-                <p>Descripcion del post 3</p>
-                <img src="media/guitarra.png" alt="GuitarraImage">
-                <p>Texto del articulo que hay aca, y es de prueba.</p>
-            </article>
-        </section>
-    </header>
-    <footer>
-        <a href="#titulo">Ir al inicio</a>
-        <a href="mailto:romero.max44@gmail.com" target="_blank">¡Contactame aquí!</a>
-        <p>Copyright 2021</p>
+      <p>Copyright 2021</p>
     </footer>
-</body>
+  </body>
 </html>
